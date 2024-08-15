@@ -1,0 +1,142 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* LoginForm Styling */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Dashboard Styling */
+.dashboard-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Admin Page Styling */
+.admin-page {
+  padding: 20px;
+}
+
+.admin-page h4 {
+  margin-bottom: 20px;
+}
+
+.admin-page button {
+  margin: 10px 0;
+}
+
+/* User Page Styling */
+.user-page {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-page h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.upload-form {
+  margin-bottom: 20px;
+}
+
+.upload-form input[type="file"] {
+  margin: 10px 0;
+}
+
+.upload-form button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.upload-form button:hover {
+  background-color: #0056b3;
+}
+
+.attendance-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.attendance-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.attendance-list img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+/* Logout Button Styling */
+.logout-button {
+  margin: 10px;
+  float: right;
+}
+
+/* Global Styling */
+button {
+  cursor: pointer;
+}
